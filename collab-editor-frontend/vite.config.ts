@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/socket.io': {
-        target: 'http://localhost:3001',
+        target: 'https://collab-ai-sz2q.onrender.com',
         ws: true,
         changeOrigin: true,
       },
